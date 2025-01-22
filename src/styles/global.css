@@ -25,24 +25,9 @@
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #000000, #1f1f1f, #565454, #060a53);
     height: 100vh;
-    /* background-size: 400% 400%;
-    animation: gradientAnimation 6s ease infinite; 
-    transition: background 5s ease-in-out; */
+  
   }
   
-  /* Keyframe animation for the gradient */
-  @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
   .table>thead> tr> th,
   .table > tbody >tr >td{
     background-color: transparent !important;
